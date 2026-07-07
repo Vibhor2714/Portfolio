@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+  <div class="portfolio-container">
+    <ul class="navlist">
+      <li><a href="#home" class="nav-link active" data-tab="home">Home</a></li>
+      <li><a href="#work" class="nav-link" data-tab="work">Work</a></li>
+      <li><a href="#about" class="nav-link" data-tab="about">About</a></li>
+      <li><a href="#project" class="nav-link" data-tab="project">Project</a></li>
+      <li><a href="#service" class="nav-link" data-tab="service">Service</a></li>
+    </ul>
+
+    <main class="panel-wrapper">
+      <section id="home" class="tab-panel active hero-panel">
+        <div class="left-container reference-home">
+          <div class="icons">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+            <a href="https://github.com/vibhor25gcebcsaiml003-dotcom" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://x.com/VibhorB11463459" target="_blank" rel="noreferrer" aria-label="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+
+          <div class="hero-grid">
+            <div class="content hero-copy">
+              <p class="intro">Hello, I'm</p>
+              <h1><span>Vibhor</span><span>Bhardwaj</span></h1>
+              <p class="detail">A web developer student building practical projects, responsive layouts, and creative portfolio experiences with HTML, CSS, JavaScript, and full-stack learning.</p>
+              <div class="btn-container">
+                <a class="btn primary-btn" href="#project" data-tab-target="project">View Projects</a>
+                <a class="btn secondary-btn" href="Resume-8.pdf" target="_blank" rel="noreferrer">Resume</a>
+              </div>
+            </div>
+
+            <div class="hero-portrait" aria-label="Profile picture">
+              <div class="hero-photo"></div>
+            </div>
+
+            <div class="hero-role-card">
+              <p class="intro">Creative</p>
+              <h1><span>Frontend</span><span>Web Developer</span></h1>
+              <div class="hero-social-row">
+                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+                <a href="https://github.com/vibhor25gcebcsaiml003-dotcom" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+              </div>
+            </div>
+
+            <article class="passion-card">
+              <span class="panel-tag">Creativity</span>
+              <h2>Is my passion</h2>
+              <p>I enjoy experimenting with layouts, animation, and clean UI details while improving my coding skills one project at a time.</p>
+            </article>
+          </div>
+        </div>
+        <div class="right-container"></div>
+      </section>
+
+      <section id="work" class="tab-panel info-panel">
+        <div class="info-card work-showcase">
+          <div class="work-heading">
+            <div>
+              <span class="panel-tag">Work</span>
+              <h2>What I build and improve</h2>
+              <p>I work on practical web projects that help me grow from HTML and CSS layouts into interactive, responsive, and backend-connected applications.</p>
+            </div>
+            <div class="work-badge">
+              <i class="fa-solid fa-code-branch"></i>
+              <span>Learning by building</span>
+            </div>
+          </div>
+
+          <div class="work-stats">
+            <article>
+              <strong>04</strong>
+              <span>Portfolio projects</span>
+            </article>
+            <article>
+              <strong>05+</strong>
+              <span>Core technologies</span>
+            </article>
+            <article>
+              <strong>2029</strong>
+              <span>BTech graduation goal</span>
+            </article>
+          </div>
+
+          <div class="work-grid">
+            <article class="work-card featured-work">
+              <span class="work-icon"><i class="fa-solid fa-layer-group"></i></span>
+              <span class="work-type">Main focus</span>
+              <h3>Frontend development</h3>
+              <p>I design clean sections, responsive layouts, navigation, project cards, dashboards, and user-friendly pages using HTML, CSS, and JavaScript.</p>
+            </article>
+            <article class="work-card">
+              <span class="work-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+              <span class="work-type">UI polishing</span>
+              <h3>Better visual experience</h3>
+              <p>I improve spacing, colors, cards, hover states, readable text, and animations so each page feels modern and easy to use.</p>
+            </article>
+            <article class="work-card">
+              <span class="work-icon"><i class="fa-solid fa-database"></i></span>
+              <span class="work-type">Backend learning</span>
+              <h3>APIs and data flow</h3>
+              <p>Through projects like Vistaara and Foodie, I am learning authentication, routes, databases, API handling, and how frontend connects with backend logic.</p>
+            </article>
+          </div>
+
+          <div class="work-process">
+            <article>
+              <span>01</span>
+              <h3>Plan</h3>
+              <p>Understand the goal, content, and sections needed for the project.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Build</h3>
+              <p>Create the page structure, styling, responsive behavior, and interactions.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Improve</h3>
+              <p>Polish UI details, fix layout issues, and make the project portfolio-ready.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="tab-panel info-panel">
+        <div class="info-card about-showcase">
+          <div class="about-heading">
+            <div>
+              <span class="panel-tag">About</span>
+              <h2>About Vibhor</h2>
+              <p>I am Vibhor Bhardwaj from Meerut, Uttar Pradesh, currently pursuing BTech in Computer Science with a specialization in AI and ML. I enjoy building web projects, improving my programming fundamentals, and learning by creating practical applications.</p>
+            </div>
+            <a class="resume-pill" href="Resume-8.pdf" target="_blank" rel="noreferrer">
+              <i class="fa-solid fa-file-lines"></i>
+              Resume
+            </a>
+          </div>
+
+          <div class="about-layout">
+            <article class="profile-card about-tile">
+              <span class="tile-icon"><i class="fa-solid fa-user-graduate"></i></span>
+              <h3>Student Developer</h3>
+              <p>Focused on frontend development, programming basics, and gradually exploring how full-stack applications are built.</p>
+              <div class="contact-line">
+                <span><i class="fa-solid fa-location-dot"></i> Meerut, Uttar Pradesh</span>
+                <span><i class="fa-solid fa-envelope"></i> bhardwajvibhor056@gmail.com</span>
+              </div>
+            </article>
+
+            <article class="education-card about-tile">
+              <span class="tile-label">Education</span>
+              <div class="timeline-item">
+                <span>2025 - 2029</span>
+                <h3>Galgotias College of Engineering and Technology</h3>
+                <p>BTech in CSE with specialization in AI and ML.</p>
+              </div>
+              <div class="timeline-item">
+                <span>2025</span>
+                <h3>K L International School</h3>
+                <p>Completed 12th Class, CBSE.</p>
+              </div>
+              <div class="timeline-item">
+                <span>2023</span>
+                <h3>K L International School</h3>
+                <p>Completed 10th Class, CBSE.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="about-grid">
+            <article class="about-tile">
+              <span class="tile-label">Technical Skills</span>
+              <div class="skill-cloud">
+                <span>Python</span>
+                <span>C</span>
+                <span>Java</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </article>
+            <article class="about-tile">
+              <span class="tile-label">Soft Skills</span>
+              <div class="skill-cloud">
+                <span>Time Management</span>
+                <span>Team Player</span>
+                <span>Fast Learner</span>
+                <span>Keen Observer</span>
+              </div>
+            </article>
+            <article class="about-tile">
+              <span class="tile-label">Languages</span>
+              <div class="language-list">
+                <p><strong>English</strong><span>Fluent</span></p>
+                <p><strong>Hindi</strong><span>Native</span></p>
+              </div>
+            </article>
+            <article class="about-tile">
+              <span class="tile-label">Interests</span>
+              <div class="interest-list">
+                <span><i class="fa-solid fa-code"></i> Coding</span>
+                <span><i class="fa-solid fa-chess-knight"></i> Chess</span>
+                <span><i class="fa-solid fa-table-tennis-paddle-ball"></i> Badminton</span>
+                <span><i class="fa-solid fa-book-open"></i> Reading Books</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="project" class="tab-panel info-panel">
+        <div class="info-card project-showcase">
+          <span class="panel-tag">Projects</span>
+          <h2>Featured projects</h2>
+          <p>These are the projects I have built while learning frontend, backend, APIs, authentication, and responsive UI design.</p>
+
+          <div class="project-grid">
+            <article class="project-card numbered-project">
+              <span class="project-number">01</span>
+              <div class="project-icon"><i class="fa-solid fa-film"></i></div>
+              <div class="project-content">
+                <span class="project-type">Full-stack OTT platform</span>
+                <h3>Vistaara</h3>
+                <p>A Netflix-inspired streaming platform with React, Tailwind CSS, Express, MongoDB, JWT authentication, personalized profiles, favorites, search, recommendations, watch progress, and an admin dashboard.</p>
+                <div class="tech-list">
+                  <span>React</span>
+                  <span>Tailwind</span>
+                  <span>Express</span>
+                  <span>MongoDB</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card numbered-project">
+              <span class="project-number">02</span>
+              <div class="project-icon"><i class="fa-solid fa-utensils"></i></div>
+              <div class="project-content">
+                <span class="project-type">Food website + backend</span>
+                <h3>Foodie</h3>
+                <p>A food ordering style website with product sections, authentication routes, subscription handling, MySQL support, Vercel serverless API routes, email support, and a local development fallback.</p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>MySQL</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card numbered-project">
+              <span class="project-number">03</span>
+              <div class="project-icon"><i class="fa-solid fa-cloud-sun-rain"></i></div>
+              <div class="project-content">
+                <span class="project-type">Live API dashboard</span>
+                <h3>Aether Weather App</h3>
+                <p>A responsive weather dashboard that searches cities, reads live weather and air-quality data, shows current conditions, 7-day forecast, hourly updates, moon cycle, and unit switching.</p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>Open-Meteo API</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card numbered-project">
+              <span class="project-number">04</span>
+              <div class="project-icon"><i class="fa-solid fa-bell"></i></div>
+              <div class="project-content">
+                <span class="project-type">Productivity web app</span>
+                <h3>Pulse Reminder App</h3>
+                <p>A modern reminder and alarm app with title, date, time, notes, browser notifications, alarm popup, repeating sound, done/undo actions, delete controls, and localStorage persistence.</p>
+                <div class="tech-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>localStorage</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="tab-panel info-panel">
+        <div class="info-card offer-showcase">
+          <span class="panel-tag">Services</span>
+          <h2>What I offer</h2>
+          <p>I can create clean beginner-friendly web pages, style portfolio sections, and improve layouts so projects look presentable and responsive.</p>
+
+          <div class="offer-layout">
+            <article class="offer-card">
+              <span class="offer-icon"><i class="fa-solid fa-laptop-code"></i></span>
+              <h3>Development Skills</h3>
+              <p>Website creation with HTML, CSS, JavaScript, responsive layouts, portfolio cards, navigation, and project sections.</p>
+              <div class="skill-cloud">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Java</span>
+              </div>
+            </article>
+
+            <article class="offer-card">
+              <span class="offer-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+              <h3>Development Tools</h3>
+              <p>I use simple and reliable tools to write code, test pages, organize projects, and keep improving my workflow.</p>
+              <div class="skill-cloud">
+                <span>VS Code</span>
+                <span>GitHub</span>
+                <span>Browser DevTools</span>
+                <span>ChatGPT</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const navLinks = document.querySelectorAll(".nav-link");
+    const panels = document.querySelectorAll(".tab-panel");
+    const tabTargets = document.querySelectorAll("[data-tab-target]");
+    const revealItems = document.querySelectorAll(".hero-copy, .hero-portrait, .hero-role-card, .passion-card, .info-card, .work-card, .work-stats article, .work-process article, .about-tile, .project-card, .offer-card");
+
+    revealItems.forEach((item) => item.classList.add("scroll-reveal"));
+
+    function scrollToPanel(panelId) {
+      const panel = document.getElementById(panelId);
+
+      if (!panel) {
+        return;
+      }
+
+      panel.scrollIntoView({ behavior: "smooth", block: "start" });
+      history.replaceState(null, "", "#" + panelId);
+    }
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        scrollToPanel(link.dataset.tab);
+      });
+    });
+
+    tabTargets.forEach((trigger) => {
+      trigger.addEventListener("click", (event) => {
+        const targetPanel = trigger.dataset.tabTarget;
+
+        if (!targetPanel) {
+          return;
+        }
+
+        event.preventDefault();
+        scrollToPanel(targetPanel);
+      });
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16 });
+
+    revealItems.forEach((item) => revealObserver.observe(item));
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+          return;
+        }
+
+        navLinks.forEach((link) => {
+          link.classList.toggle("active", link.dataset.tab === entry.target.id);
+        });
+      });
+    }, { rootMargin: "-40% 0px -45% 0px", threshold: 0 });
+
+    panels.forEach((panel) => sectionObserver.observe(panel));
+
+    const initialPanel = window.location.hash.replace("#", "");
+
+    if (initialPanel && document.getElementById(initialPanel)) {
+      setTimeout(() => scrollToPanel(initialPanel), 100);
+    }
+  </script>
+</body>
+</html>
